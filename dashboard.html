@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DashBoard</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <header>
+      <div class="head-container">
+        <div class="head-logo">
+          <a href="#"
+            ><img
+              src="LGU_LOGO_Withbackground.jpg"
+              alt="logo"
+              height="40px"
+              width="40px"
+            />
+            <span>LAHORE GARRISON UNIVERSITY</span>
+          </a>
+        </div>
+        <div class="notification">
+          <span class="head-icon">
+            <span><i class="fa-regular fa-bell"></i></span>
+          </span>
+          <button class="head-dropdown">
+            <img
+              src="header_Icon.jpg"
+              alt="head-icon"
+              height="20px"
+              width="20px"
+            />Fa-22/BSCS/476
+          </button>
+        </div>
+      </div>
+      <div class="navbar">
+        <nav class="nav_container">
+          <div id="bar">
+            <a href="#"><i class="fa-solid fa-bars"></i> </a>
+          </div>
+          <div class="nav_list">
+            <div class="nav_items">
+              <div class="icon">
+                <a href="#"><i class="fa-solid fa-house"></i></a>
+              </div>
+              <div class="icon">
+                <a href="#"><i class="fa-solid fa-user"></i></a>
+              </div>
+              <div class="icon">
+                <a href="#"><i class="fa-solid fa-chart-pie"></i></a>
+              </div>
+              <div class="icon">
+                <a href="#"><i class="fa-solid fa-award"></i></a>
+              </div>
+              <div class="icon">
+                <a href="#"><i class="fa-regular fa-clipboard"></i></a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div id="dasboard_heading">
+        <u>DASHBOARD</u>
+      </div>
+      <div class="option_box">
+        <div class="card_1">
+          <div class="row">
+            <div class="row_logo">
+              <a href="#"
+                ><i
+                  class="fa-solid fa-book-open"
+                  style="font-size: 3rem; color: rgb(192, 8, 8)"
+                ></i
+              ></a>
+            </div>
+            <div class="statmentbody">
+              <p id="p1">ENROLLED SEMESTER</p>
+              <p>Sp-2024</p>
+            </div>
+          </div>
+        </div>
+        <div class="card_1">
+          <div class="row">
+            <div class="row_logo">
+              <a href="#"
+                ><i
+                  class="fa-solid fa-money-bill"
+                  style="font-size: 3rem; color: green"
+                ></i
+              ></a>
+            </div>
+            <div class="statmentbody">
+              <p id="p1">OUSTANDINGS</p>
+              <p>31099.5</p>
+            </div>
+          </div>
+        </div>
+        <div class="card_1">
+          <div class="row">
+            <div class="row_logo">
+              <a href="#"
+                ><i
+                  class="fa-solid fa-graduation-cap"
+                  style="color: black; font-size: 3rem"
+                ></i
+              ></a>
+            </div>
+            <div class="statmentbody">
+              <p id="p1">CGPA</p>
+              <p>3.60</p>
+            </div>
+          </div>
+        </div>
+        <div class="card_1">
+          <div class="row">
+            <div class="row_logo">
+              <a href="#"
+                ><i
+                  class="fa-solid fa-users-viewfinder"
+                  style="color: black; font-size: 3rem"
+                ></i
+              ></a>
+            </div>
+            <div class="statmentbody">
+              <p id="p1">SECTION</p>
+              <p>I</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="largebox">
+        <div class="attendance dash_b1">
+          <button>Attendance</button>
+          <div class="graph dash_b2">
+            <div class="implement">
+              <div class="graph">
+                <div
+                  style="height: 200px; background-color: orangered"
+                  class="bar"
+                ></div>
+                <div
+                  style="height: 200px; background-color: palevioletred"
+                  class="bar"
+                ></div>
+                <div
+                  style="height: 200px; background-color: rgb(196, 91, 109)"
+                  class="bar"
+                ></div>
+                <div
+                  style="height: 200px; background-color: darkblue"
+                  class="bar"
+                ></div>
+                <div
+                  style="height: 200px; background-color: darkred"
+                  class="bar"
+                ></div>
+                <div
+                  style="height: 200px; background-color: rgb(37, 167, 222)"
+                  class="bar"
+                ></div>
+              </div>
+            </div>
+            <div class="span">
+              <span>ToA-TH</span>
+              <span>DS-TH</span>
+              <span style="padding-left: 13px">LA-TH</span>
+              <span style="padding-left: 16px">DS-TH</span>
+              <span style="padding-left: 3px">DAoA-TH</span>
+              <span style="padding-left: 5px">DS-LAB</span>
+            </div>
+          </div>
+        </div>
+        <div class="feeledger dash_b1">
+          <button>Student Fee Ledger</button>
+          <div class="fee dash_b2">
+            <div class="implement_fee">
+              <table class="table1">
+                <thead>
+                  <tr>
+                    <th>SEMESTER SESSION</th>
+                    <th>CHALLAN TYPE</th>
+                    <th>ISSUE DATE</th>
+                    <th>DUE DATE</th>
+                    <th>PAID DATE</th>
+                    <th>STATUS</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>Fa-22</th>
+                    <th>Registration</th>
+                    <th>16/11/2022</th>
+                    <th>30/11/2022</th>
+                    <th>17/11/2022</th>
+                    <th>paid</th>
+                  </tr>
+                  <tr>
+                    <th>Sp-23</th>
+                    <th>Registration</th>
+                    <th>16/04/2023</th>
+                    <th>30/04/2023</th>
+                    <th>17/04/2023</th>
+                    <th>paid</th>
+                  </tr>
+                  <tr>
+                    <th>Fa-23</th>
+                    <th>Registration</th>
+                    <th>16/11/2023</th>
+                    <th>30/11/2023</th>
+                    <th>17/11/2023</th>
+                    <th>paid</th>
+                  </tr>
+                  <tr>
+                    <th>Sp-24</th>
+                    <th>Registration</th>
+                    <th>27/03/2024</th>
+                    <th>10/04/2024</th>
+                    <th>28/03/2024</th>
+                    <th>paid</th>
+                  </tr>
+                  <tr>
+                    <th>Fa-22</th>
+                    <th>Registration</th>
+                    <th>16/11/2022</th>
+                    <th>30/11/2022</th>
+                    <th>17/11/2022</th>
+                    <th>paid</th>
+                  </tr>
+                  <tr>
+                    <th>Fa-22</th>
+                    <th>Registration</th>
+                    <th>16/11/2022</th>
+                    <th>30/11/2022</th>
+                    <th>17/11/2022</th>
+                    <th>paid</th>
+                  </tr>
+                  <tr>
+                    <th>Fa-22</th>
+                    <th>Registration</th>
+                    <th>16/11/2022</th>
+                    <th>30/11/2022</th>
+                    <th>17/11/2022</th>
+                    <th>paid</th>
+                  </tr>
+                  <tr>
+                    <th>Fa-22</th>
+                    <th>Registration</th>
+                    <th>16/11/2022</th>
+                    <th>30/11/2022</th>
+                    <th>17/11/2022</th>
+                    <th>paid</th>
+                  </tr>
+                  <tr>
+                    <th>Fa-22</th>
+                    <th>Registration</th>
+                    <th>16/11/2022</th>
+                    <th>30/11/2022</th>
+                    <th>17/11/2022</th>
+                    <th>paid</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="academic dash_b1">
+          <button>Academic Calender</button>
+          <div class="calender dash_b2">
+            <div class="implement_calender">
+              <table class="table2">
+                <thead>
+                  <tr>
+                    <th>ACTIVITY</th>
+                    <th>DATE</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>ENROLLEMENT START</th>
+                    <th>10 MAR 2024</th>
+                  </tr>
+                  <tr>
+                    <th>SEMESTER START</th>
+                    <th>18 MAR 2024</th>
+                  </tr>
+                  <tr>
+                    <th>ENROLLMENT END</th>
+                    <th>16 MAR 2024</th>
+                  </tr>
+                  <tr>
+                    <th>SEMESTER FREEZE</th>
+                    <th>31 MAR 2024</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="enrollement dash_b1">
+          <button>Current Enrolled Courses</button>
+          <div class="courses dash_b2">
+            <div class="implement_course">
+              <table class="table3">
+                <thead>
+                  <tr>
+                    <th>COURSE NAME</th>
+                    <th>TEACHER NAME</th>
+                    <th>T/L</th>
+                    <th>P</th>
+                    <th>A</th>
+                    <th>%</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>Database System Sec 9</th>
+                    <th>Umer Farooq</th>
+                    <th>Theory</th>
+                    <th>3</th>
+                    <th>0</th>
+                    <th>100.00</th>
+                  </tr>
+                  <tr>
+                    <th>Database System Sec 9</th>
+                    <th>Talha Javed</th>
+                    <th>Lab</th>
+                    <th>3</th>
+                    <th>0</th>
+                    <th>100.00</th>
+                  </tr>
+                  <tr>
+                    <th>Theory of Automata Sec 9</th>
+                    <th>Hassan Raza</th>
+                    <th>Theory</th>
+                    <th>3</th>
+                    <th>0</th>
+                    <th>100.00</th>
+                  </tr>
+                  <tr>
+                    <th>Design and Analysis of Algorithm Sec 9</th>
+                    <th>Awais Salman Qazi</th>
+                    <th>Theory</th>
+                    <th>3</th>
+                    <th>0</th>
+                    <th>100.00</th>
+                  </tr>
+                  <tr>
+                    <th>Linear Algebra Sec 9</th>
+                    <th>Asma Riffat</th>
+                    <th>Theory</th>
+                    <th>3</th>
+                    <th>0</th>
+                    <th>100.00</th>
+                  </tr>
+                  <tr>
+                    <th>Discrete Structures Sec 9</th>
+                    <th>Nosheen Ilyas</th>
+                    <th>Theory</th>
+                    <th>3</th>
+                    <th>0</th>
+                    <th>100.00</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>&copy; Copyright 2024 Develop By Attiqa.</footer>
+  </body>
+</html>

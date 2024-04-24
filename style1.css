@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  font-family: arial;
+  padding: 0;
+  border: border-box;
+  line-height: 1.5;
+}
+.head-logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #19181b;
+}
+.head-logo span {
+  margin-left: 5px;
+}
+.notification img {
+  height: 19px;
+  width: 19px;
+  border-radius: 50%;
+  position: relative;
+  right: 7px;
+  top: 2px;
+}
+.notification {
+  height: 28px;
+  width: 20%;
+}
+
+.notification button {
+  color: white;
+  height: 28px;
+  width: 70%;
+  border-radius: 15px;
+  font-size: 0.95rem;
+  text-align: center;
+  text-align: center;
+  background-color: #0d3e02;
+}
+header {
+  border-bottom: #d0cdda solid 1px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.head-container {
+  height: 64px;
+  padding-left: 100px;
+  padding-right: 48px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: #19181b 6px;
+}
+.navbar {
+  color: #19181b;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 700px;
+  border-right: #d0cdda solid 1px;
+  background-color: #ffffff;
+  padding: 24px;
+  padding-bottom: 0px;
+  color: #19181b;
+}
+.nav_items div {
+  margin-bottom: 25px;
+}
+
+#bar {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+main {
+  margin-top: 56px;
+  padding-top: 16px;
+  padding-left: 96px;
+  padding-right: 48px;
+  background-color: #eff3f9;
+}
+#dasboard_heading {
+  font-weight: 650;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+u {
+  font-size: 20px;
+}
+.card_1 {
+  height: 5rem;
+  width: 16rem;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 6px 6px 20px rgb(54, 54, 54);
+  font-size: 0.8rem;
+  border: 1px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  transition: all;
+}
+.row_logo a {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon a {
+  color: rgb(117, 116, 116);
+}
+.statmentbody {
+  padding: 16px;
+  text-align: right;
+  font-weight: bold;
+  color: rgb(74, 74, 74);
+}
+#p1 {
+  padding-bottom: 8px;
+  color: grey;
+  font-size: 0.7rem;
+}
+.option_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card_1:hover {
+  position: relative;
+  bottom: 2px;
+}
+.dash_b1 button {
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-align: left;
+  padding-left: 8px;
+  width: 500px;
+  height: 35px;
+  background-color: #1d2f6f;
+  border-color: #1d2f6f;
+}
+.dash_b1 {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+.largebox {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.dash_b2 {
+  width: 500px;
+  height: 300px;
+  border-radius: 1%;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.15);
+}
+.feeledger button {
+  background-color: #8390fa;
+  border-color: #8390fa;
+}
+.academic button {
+  background-color: #3d668c;
+  border-color: #3d668c;
+}
+.enrollement button {
+  background-color: #482728;
+  border-color: #482728;
+}
+.implement_fee,
+.implement_course {
+  overflow-x: auto;
+  overflow-y: auto;
+  height: 300px;
+  white-space: nowrap;
+}
+tr:nth-child(odd) {
+  background-color: #e4dfdf;
+}
+.table1 thead th,
+.table2 thead th,
+.table3 thead th {
+  font-size: 0.7rem;
+  color: grey;
+  padding: 12px 24px 12px 24px;
+  background-color: #ffffff;
+}
+
+.table1,
+.table2,
+.table3 {
+  border-collapse: collapse;
+  text-align: left;
+}
+.table1 tbody th,
+.table2 tbody th,
+.table3 tbody th {
+  font-size: 0.8rem;
+  padding: 8px 24px 8px 24px;
+}
+.table2 tbody th {
+  font-weight: 200;
+}
+.table2 {
+  width: 100%;
+}
+
+footer {
+  background-color: rgb(151, 148, 148);
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  margin-left: 68px;
+  padding-right: 5px;
+  font-size: 15px;
+  color: #e4dfdf;
+  font-weight: 600;
+  text-shadow: grey;
+}
+
+.bar {
+  width: 50px;
+  margin: 3px;
+  display: inline-block;
+  background-color: #aeaeae;
+  vertical-align: baseline;
+}
+.span {
+  position: relative;
+  left: 80px;
+  font-size: 0.7rem;
+}
+.span span {
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.implement {
+  padding-left: 80px;
+  padding-top: 50px;
+}
